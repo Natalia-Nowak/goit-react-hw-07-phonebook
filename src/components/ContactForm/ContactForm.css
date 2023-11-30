@@ -1,0 +1,19 @@
+.button-form {
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  width: 150px;
+  color: #fff;
+  border: 0.2px solid #a1a1a1;
+  background-color: #7ca8d3;
+  border-radius: 15px;
+}
+.button-form:hover {
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.25);
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
