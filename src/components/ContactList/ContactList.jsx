@@ -17,6 +17,7 @@ export default function ContactList() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchContacts());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleDelete = id => {
