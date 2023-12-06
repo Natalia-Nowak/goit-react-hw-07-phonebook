@@ -25,7 +25,7 @@ export default function ContactList() {
   };
 
   if (error) return <p>error...</p>;
-  console.log(contactList);
+
   return (
     <ul className="contact-list">
       {isLoading && <p>Loading...</p>}
